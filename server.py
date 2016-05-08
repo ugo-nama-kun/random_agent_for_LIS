@@ -53,9 +53,7 @@ class AgentServer(WebSocket):
 
         depth = np.array(ImageOps.grayscale(depth)).reshape(self.depth_image_dim)
 
-        temperature = dat["temperature"]
-
-        observation = {"image": image, "depth": depth, "temperature": temperature}
+        observation = {"image": image, "depth": depth}
         reward = dat['reward']
         end_episode = dat['endEpisode']
 
