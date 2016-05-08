@@ -8,3 +8,6 @@ python plot_reward_log.py
 ```
 
 in your random_agent_for_LIS directory (as is the original LIS sample-agent ;-) ).
+
+for original LIS, check:
+https://github.com/wbap/lis
