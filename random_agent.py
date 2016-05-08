@@ -2,7 +2,6 @@
 
 import os
 import numpy as np
-from chainer import cuda
 
 
 class RandomAgent(object):
@@ -10,6 +9,7 @@ class RandomAgent(object):
 
     def agent_init(self, **options):
         self.time = 0
+        print("Agent Initialized!")
 
     def agent_start(self, observation):
         
